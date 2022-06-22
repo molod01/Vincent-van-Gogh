@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import '../src/components/Artist/Artist'
+import '../src/components/Layout/Layout'
+import { 
+  BrowserRouter,
+  Routes,
+  Route,
+  HashRouter
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter basename='/'>
+      <Routes>
+          <Route path="/" element={<Layout />}>
+              <Route index element={<Artist />}/>
+              {/* <Route path="game" element={<MemoryGame />}/> */}
+          </Route>
+      </Routes>
+    </HashRouter>
   );
 }
 
