@@ -1,6 +1,8 @@
 import './index.css';
-import '../src/components/Artist/Artist'
-import '../src/components/Layout/Layout'
+import Artist from './components/Artist/Artist';
+import Layout from './components/Layout/Layout';
+import Galery from './components/Galery/Galery';
+import Masterpiece from './components/Masterpiece/Masterpiece'
 import { 
   BrowserRouter,
   Routes,
@@ -14,7 +16,8 @@ function App() {
       <Routes>
           <Route path="/" element={<Layout />}>
               <Route index element={<Artist />}/>
-              {/* <Route path="game" element={<MemoryGame />}/> */}
+              <Route path="painting" element={<Masterpiece />}/>
+              <Route path="galery" element={<Galery />}/>
           </Route>
       </Routes>
     </HashRouter>
