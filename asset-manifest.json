@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vincent-van-gogh/static/css/main.aa6aa3af.css",
+    "main.js": "/vincent-van-gogh/static/js/main.a9ccc6e0.js",
+    "static/js/787.a455e62a.chunk.js": "/vincent-van-gogh/static/js/787.a455e62a.chunk.js",
+    "index.html": "/vincent-van-gogh/index.html",
+    "main.aa6aa3af.css.map": "/vincent-van-gogh/static/css/main.aa6aa3af.css.map",
+    "main.a9ccc6e0.js.map": "/vincent-van-gogh/static/js/main.a9ccc6e0.js.map",
+    "787.a455e62a.chunk.js.map": "/vincent-van-gogh/static/js/787.a455e62a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa6aa3af.css",
+    "static/js/main.a9ccc6e0.js"
+  ]
+}
