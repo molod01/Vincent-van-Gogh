@@ -1,8 +1,8 @@
 import './index.css';
-import Artist from './components/Artist/Artist';
-import Layout from './components/Layout/Layout';
-import Galery from './components/Galery/Galery';
-import Masterpiece from './components/Masterpiece/Masterpiece'
+import Artist from './components/Artist';
+import Layout from './components/Layout';
+import Galery from './components/Galery';
+import Masterpiece from './components/Masterpiece'
 import { 
   BrowserRouter,
   Routes,
