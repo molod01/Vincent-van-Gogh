@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
 
 const Galery = () => (
   <div>
@@ -24,10 +22,6 @@ const Galery = () => (
     </div>
   </div>
 );
-
-Galery.propTypes = {};
-
-Galery.defaultProps = {};
 
 export default Galery;
 
